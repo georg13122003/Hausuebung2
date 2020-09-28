@@ -9,7 +9,8 @@ package homework.pkg2;
  *
  * @author gmairhuber18
  */
-public class Homework2 {
-
+public interface NumberTest {
+    
+    boolean testNumber(int number);
     
 }

@@ -9,7 +9,18 @@ package homework.pkg2;
  *
  * @author gmairhuber18
  */
-public class Homework2 {
+public class NumberTester{
 
+    String file;
+    public NumberTester(String filename) {
+        
+        this.file = filename;
+        
+    }
+    
+    public void setOddEvenTester(NumberTest oddtest)
+    {
+        
+    }
     
 }
