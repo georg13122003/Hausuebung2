@@ -15,6 +15,7 @@ public class NumberTester{
     NumberTest OddEvenTester;
     NumberTest PrimeTester;
     NumberTest PalindromeTester;
+    int i = 1;
     
     public NumberTester(String filename) {
         
