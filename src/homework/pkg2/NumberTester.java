@@ -12,6 +12,10 @@ package homework.pkg2;
 public class NumberTester{
 
     String file;
+    NumberTest OddEvenTester;
+    NumberTest PrimeTester;
+    NumberTest PalindromeTester;
+    
     public NumberTester(String filename) {
         
         this.file = filename;
@@ -20,7 +24,21 @@ public class NumberTester{
     
     public void setOddEvenTester(NumberTest oddtest)
     {
-        
+        this.OddEvenTester = oddtest;
     }
     
+    public void setPrimeTester(NumberTest primetest)
+    {
+        this.PrimeTester = primetest;
+    }
+    
+    public void PalindromeTester(NumberTest palindrometest)
+    {
+        this.PalindromeTester = palindrometest;
+    }
+    
+    public void testFile()
+    {
+        
+    }
 }
